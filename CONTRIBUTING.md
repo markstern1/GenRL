@@ -19,3 +19,9 @@ pre-commit install
 ```
 
 Then when you commit your change, your code will be automatically checked.
+
+> **Personal note:** I also run `flake8` locally before committing as an extra sanity check:
+> ```bash
+> pip install flake8
+> flake8 .
+> ```
