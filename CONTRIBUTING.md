@@ -25,3 +25,10 @@ Then when you commit your change, your code will be automatically checked.
 > pip install flake8
 > flake8 .
 > ```
+
+> **Personal note:** I also run `mypy` for static type checking on the core modules:
+> ```bash
+> pip install mypy
+> mypy genrl/
+> ```
+> This helps catch type errors early, especially when experimenting with new algorithms.
